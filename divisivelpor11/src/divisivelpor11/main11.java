@@ -1,0 +1,20 @@
+package divisivelpor11;
+
+public class main11 {
+
+	public static void main(String[] args) {
+		int numeros, i, x = 0;
+
+		for (i = 1000; i < 2000; i++) {
+
+			if (i % 11 == 5) {
+				System.out.println(i);
+				x++;
+			}
+
+		}
+		System.out.println("sao \n " + x);
+
+	}
+
+}

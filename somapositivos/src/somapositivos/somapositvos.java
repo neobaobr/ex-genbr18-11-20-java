@@ -10,10 +10,10 @@ public class somapositvos {
 		System.out.println("digite um numero para somar (positvo)\n");
 		num = leia.nextInt();
 		num1 = num;
-		while (num > 0) {
+		while (num >= 0) {
 			System.out.println("digite um numero para somar (positvo)\n");
 			num = leia.nextInt();
-			if (num > 0) {
+			if (num >= 0) {
 				soma += num;
 				i++;
 			}
